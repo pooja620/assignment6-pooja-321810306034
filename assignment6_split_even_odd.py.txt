@@ -1,0 +1,12 @@
+n=int(input("enter the series limit:"))+1
+Elist=[]
+Olist=[]
+print("before splitting the data into even and odd")
+for i in range(0,n):
+if i%2==0:
+Elist.append(i)
+else:
+Olist.append(i)
+print("even number:",Elist)
+print("odd number:",Olist)
+
